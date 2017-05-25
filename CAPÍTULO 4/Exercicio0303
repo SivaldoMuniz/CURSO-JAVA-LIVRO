@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+	public class EntradaScanner {
+		public static void main (String[] args){
+			Scanner scan = new Scanner (System.in);
+
+	System.out.print("\n Informe seu nome:\t");
+	  String nome = scan.nextLine();
+
+	System.out.print("\n Informe sua Nacionalidade:\t");
+	  String nacionalidade = scan.nextLine();
+    
+	System.out.print("\n Informe seu Telefone:\t");
+	  String telefone = scan.nextLine();
+
+	System.out.println("\nCadastro Confirmado:");
+	System.out.println("Nome:\t %s \nNacionalidade:\t %s\n\n Telefone %c", nome,nacionalidade,telefone);
+    }
+  }
+	
+

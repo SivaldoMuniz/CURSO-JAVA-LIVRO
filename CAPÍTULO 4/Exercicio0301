@@ -1,0 +1,12 @@
+public class Exercicio0301{
+	public static void main(String[] args){
+
+	System.out.println();
+    System.out.printf ( % d  e  %d " 9 'X' 1 = 9 ,  9 'X' 6 = 54);
+
+System.out.println();
+
+}
+
+}
+ 
